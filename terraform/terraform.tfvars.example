@@ -1,0 +1,8 @@
+aws_region        = "eu-west-3"
+project_name      = "devops-demo"
+environment       = "dev"
+kubernetes_version = "1.33"
+instance_types    = ["t3.medium"]
+desired_size      = 2
+min_size          = 1
+max_size          = 3
